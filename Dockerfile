@@ -6,7 +6,7 @@ MAINTAINER Golfen Guo <golfen.guo@daocloud.io>
 # Add 2048 stuff into Nginx server
 COPY . /usr/share/nginx/html
 RUN mkdir /myvol
-RUN echo "hello world" > /myvol/greeting
+RUN echo "hello world" > /myvol/greeting2
 VOLUME /myvol
 EXPOSE 80
 

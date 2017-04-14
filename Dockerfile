@@ -7,7 +7,7 @@ MAINTAINER Golfen Guo <golfen.guo@daocloud.io>
 COPY . /usr/share/nginx/html
 RUN mkdir /myvol
 RUN echo "hello world" > /myvol/greeting2
-VOLUME /myvol
+
 EXPOSE 80
 
 # Start Nginx and keep it running background and start php
